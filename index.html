@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Flour & Bean</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./scripts.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo-holder">
+        <div class="logo"><img src="./images/f&blogo.png" alt="logo" width="50%"></div>
+        <div class="logo-text">The Flour & Bean</div>
+      </a>
+      <nav>
+        <ul id="menu">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#menu-pastry">Menu</a>
+          </li>
+          <li>
+            <a href="#menu-pastry" class="button">Order Now</a>
+          </li>
+        </ul>
+        <a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+          <img src="./images/mobileToggle.svg" alt="Mobile Toggle" />
+        </a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-first">
+          <h1>The Flour & Bean</h1>
+          <p>
+            The Flour & Bean is a neighborhood bakery where handcrafted pastries 
+            and artisan breads are made with the finest seasonal ingredients.
+             From flaky croissants to decadent cakes, their menu offers a delicious 
+             selection to satisfy every sweet tooth.
+          </p>
+          <div class="call-to-action">
+            <a href="./menu.pdf" target="”_blank”" class="button">
+              Full Menu
+            </a>
+          </div>
+        </div>
+        <div class="hero-second">
+          <img
+            src="./images/flour&bean.png"
+            alt="Flour & Bean Bakery"
+            width="100%"
+          />
+        </div>
+      </section>
+      <section id="menu-pastry" class="featured">
+        <h2>100% Homemade pastries</h2>
+        <div class="pastry">
+          <article>
+            <figure>
+              <img
+                src="./images/SpicedPear.png"
+                alt="Spiced Pear & Almond Turnover"
+                width="100%"
+              />
+            </figure>
+            <h3>Spiced Pear & Almond Turnover</h3>
+            <p>
+              This flaky pastry is filled with a sweet and warm spiced pear 
+              compote with a hint of cinnamon and nutmeg.Toasted almonds add
+               a delightful crunch.
+            </p>
+          </article>
+          <article>
+            <figure>
+              <img
+                src="./images/ChocolateRaspberryCroissant.png"
+                alt="Chocolate Raspberry Croissant"
+                width="100%"
+              />
+            </figure>
+            <h3>Chocolate Raspberry Croissant</h3>
+            <p>
+              This classic croissant gets a decadent upgrade with layers of
+               rich dark chocolate and tangy raspberry jam.A dusting of 
+               powdered sugar adds a touch of sweetness.
+            </p>
+          </article>
+          <article>
+            <figure>
+              <img
+                src="./images/BlueberryLemonDanish.png"
+                alt="Blueberry Lemon Danish"
+                width="100%"
+              />
+            </figure>
+            <h3>Blueberry Lemon Danish</h3>
+            <p>
+              This light and airy Danish is filled with a sweet and tart blueberry filling.
+               A tangy lemon glaze adds a refreshing touch.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
